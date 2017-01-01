@@ -22,7 +22,7 @@ a{ color:#333333}
 	.my-shop-nav-ul{}
 		.my-shop-nav-ul a{ color:#fff}
 			.my-shop-nav-ul a:hover{ color:#000}
-.my-shop-product-list{ padding:10px;}
+.my-shop-product-list{ padding: 0px;}
 	.my-shop-product-list > li{ padding:10px;}
 	.my-shop-product-list .am-img-responsive{ margin:0 auto;}
 		.my-shop-product-list > li h3{ margin-top:0.8em; margin-bottom:0.6em}
