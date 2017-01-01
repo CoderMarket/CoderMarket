@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>需求发布</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="amazeui/css/amazeui.min.css"/>
+<link rel="stylesheet" href="default/style.css"/>
+<script src="amazeui/js/jquery.min.js"></script>
+<script src="amazeui/js/amazeui.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <header data-am-widget="header" class="am-header am-header-default my-header">
+      <div class="am-header-left am-header-nav">
+        <a href="#left-link" class="">
+          <i class="am-header-icon am-icon-chevron-left"></i>
+        </a>
+      </div>
+      <h1 class="am-header-title">
+        <a href="#title-link" class="">需求发布</a>
+      </h1>
+      <div class="am-header-right am-header-nav">
+        <a href="#right-link" class="">
+          <i class="am-header-icon  am-icon-home"></i>
+        </a>
+      </div>
+    </header>
+    <div class="cart-panel">
+        <form class="am-form">
+          <fieldset>
+            <legend>发布项目</legend>
+            <div class="am-form-group">
+                <label>项目名称</label>
+                <input type="text" class="am-form-field " placeholder="请输入项目名称">
+            </div>
+            <div class="am-form-group">
+                <label for="select_type">选择类型</label>
+                <select id="select_type">
+                  <option value="option1">ios APP</option>
+                   <option value="option2">Android APP</option>
+                   <option value="option3">windows 桌面应用</option>
+                   <option value="option4">web网站</option>
+                   <option value="option5">嵌入式</option>
+                </select>
+            </div>
+            <div class="am-form-group">
+                <label for="Code_language">编程语言</label>
+                <select id="Code_language">
+                  <option value="option1">C++/C</option>
+                   <option value="option2">Python</option>
+                   <option value="option3">Java</option>
+                   <option value="option4">Swift</option>
+                   <option value="option5">Html/Css/JS</option>
+                </select>
+            </div>
+            <div class="am-form-group">
+              <label>项目发布金额</label>
+              <input type="text" class="am-form-field" placeholder="请输入项目资金"> 
+            </div>
+            <div class="am-form-group">
+              <label>项目开发时间</label>
+              <input type="text" class="am-form-field" placeholder="请输入项目开发时间">
+            </div>            
+            <div class="am-form-group">
+            <label for="describe project">项目描述</label>
+            <textarea id="describe project" name="describe project" placeholder="请输入项目的具体描述" rows="6"></textarea>
+            </div>
+            <p class="am-text-center"><button type="submit" class="am-btn am-btn-danger am-radius am-btn-block">发布需求</button></p>
+          </fieldset>
+        </form>
+    </div>
+    
+    <footer data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{  }">
+        <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+      <div class="am-footer-miscs ">
+        <p>CopyRight©2017 电子商务Group10</p>
+        <p>Powered by <a href="http://amazeui.org/">amaze ui</a></p>
+      </div>
+    </footer>
+    <!--底部-->
+    <div data-am-widget="navbar" class="am-navbar am-cf my-nav-footer " id="">
+      <ul class="am-navbar-nav am-cf am-avg-sm-4 my-footer-ul">
+        <li>
+          <a href="/wap/" class="">
+            <span class="am-icon-home"></span>
+            <span class="am-navbar-label">首页</span>
+          </a>
+        </li>
+        <li>
+          <a href="###" class="">
+            <span class=" am-icon-rocket"></span>
+            <span class="am-navbar-label">项目</span>
+          </a>
+        </li>
+        <li>
+          <a href="###" class="">
+            <span class=" am-icon-edit"></span>
+            <span class="am-navbar-label">发布</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="">
+            <span class=" am-icon-user"></span>
+            <span class="am-navbar-label">个人中心</span>
+          </a>
+        </li>
+      </ul>
+      <script>
+        function showFooterNav(){
+            $("#footNav").toggle();
+        }
+      </script>
+    </div>
+</div>
+</body>
+</html>
